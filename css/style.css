@@ -12,36 +12,9 @@ body {
 #content-wrapper {
 	height: inherit;
 	overflow: hidden !important;
-
-	/*Animation*/
-	-webkit-animation: bgcolorchange 4s infinite;
-	animation: 4s infinite bgcolorchange;
+	background-color: #303030;
 }
 
 #page-title {
 	font-size: 5rem;
-}
-
-
-@keyframes bgcolorchange {
-	0% {
-		-webkit-transition: 5s all ease;
-    		background-color: #ff4d4d;
-  	}
-  	25% {
-  		-webkit-transition: 5s all ease;
-    		background-color: #ff3333;
-  	}
-  	50% {
-		-webkit-transition: 5s all ease;
-		background-color: #ff1a1a;
-  	}
-  	75% {
-		-webkit-transition: 5s all ease;
-		background-color: #ff3333;
-  	}
-  	100% {
-		-webkit-transition: 5s all ease;
-		background-color: #ff4d4d;
-  	}
 }
