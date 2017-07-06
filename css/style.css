@@ -1,0 +1,42 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden !important;
+}
+
+#main {
+	height: 100%;
+	overflow: hidden !important;
+}
+
+#content-wrapper {
+	height: inherit;
+	overflow: hidden !important;
+
+	/*Animation*/
+	-webkit-animation: bgcolorchange 4s infinite;
+	animation: 4s infinite bgcolorchange;
+}
+
+#page-title {
+	font-size: 5rem;
+}
+
+
+@keyframes bgcolorchange {
+	0% {
+    background-color: #8C0003;
+  }
+  25% {
+    background-color: #2E2E2E;
+  }
+  50% {
+    background-color: #4CB6AC;
+  }
+  75% {
+    background-color: #CF6122;
+  }
+  100% {
+    background-color: #C82C2D;
+  }
+}
