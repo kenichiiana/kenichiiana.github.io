@@ -25,18 +25,23 @@ body {
 
 @keyframes bgcolorchange {
 	0% {
-    background-color: #8C0003;
-  }
-  25% {
-    background-color: #2E2E2E;
-  }
-  50% {
-    background-color: #4CB6AC;
-  }
-  75% {
-    background-color: #CF6122;
-  }
-  100% {
-    background-color: #C82C2D;
-  }
+		-webkit-transition: 5s all ease;
+    		background-color: #ff4d4d;
+  	}
+  	25% {
+  		-webkit-transition: 5s all ease;
+    		background-color: #ff3333;
+  	}
+  	50% {
+		-webkit-transition: 5s all ease;
+		background-color: #ff1a1a;
+  	}
+  	75% {
+		-webkit-transition: 5s all ease;
+		background-color: #ff3333;
+  	}
+  	100% {
+		-webkit-transition: 5s all ease;
+		background-color: #ff4d4d;
+  	}
 }
